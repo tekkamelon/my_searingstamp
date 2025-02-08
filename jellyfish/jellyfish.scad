@@ -33,7 +33,7 @@ difference(){
 
 	}
 
-	load_svg("jellyfish.svg");
+	load_svg("jellyfish2.svg");
 
 }
 
