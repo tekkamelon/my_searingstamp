@@ -25,14 +25,17 @@ module load_svg(import_file){
 
 }
 
+// 本体にsvgを彫り込む
 difference(){
 	
-	translate([0, 0, -cylinder_height+0.5]){ 
+	// 本体
+	translate([0, 0, -cylinder_height+0.6]){ 
 
 		cylinder(h=40, r=12);
 
 	}
 
+	// svgを読み込む
 	load_svg("jellyfish2.svg");
 
 }
