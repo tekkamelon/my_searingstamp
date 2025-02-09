@@ -36,7 +36,7 @@ difference(){
 	}
 
 	// svgを読み込む
-	load_svg("jellyfish2.svg");
+	load_svg("jellyfish.svg");
 
 }
 
